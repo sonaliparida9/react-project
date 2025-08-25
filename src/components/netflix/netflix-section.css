@@ -1,0 +1,11 @@
+.section{
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section-suntitle{
+    font-size: 20px;
+}
