@@ -1,0 +1,70 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "admin_id": "john_admin",
+      "password": "john@123"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "user_id": "david_nit",
+      "user_name": "David",
+      "password": "david1",
+      "email": "david@outlook.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "category_id": 1,
+      "category_name": "java"
+    },
+    {
+      "id": "2",
+      "category_id": 2,
+      "category_name": "React"
+    },
+    {
+      "id": "3",
+      "category_id": 3,
+      "category_name": "AWS"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "Java Stream API",
+      "description": "Java Tutorials",
+      "url": "https://www.youtube.com/embed/JD0fIqzXUL4",
+      "likes": 200,
+      "dislikes": 0,
+      "views": 500,
+      "comments": "Thank you",
+      "category_id": 1
+    },
+    {
+      "title": "React by mr. shudhakar sharma",
+      "description": "React JS Interview Tips",
+      "url": "https://www.youtube.com/embed/p6cXj0C4d9A",
+      "likes": 300,
+      "views": 400,
+      "dislikes": 0,
+      "category_id": 2,
+      "comments": "next post the videos",
+      "id": "3a92"
+    },
+    {
+      "title": "React FAQ's by S.Sharma",
+      "description": "React JS Interview Tips",
+      "url": "https://www.youtube.com/embed/p6cXj0C4d9A",
+      "likes": 200,
+      "views": 400,
+      "dislikes": 0,
+      "category_id": 2,
+      "comments": "next post the videos",
+      "id": "1c89"
+    }
+  ]
+}
