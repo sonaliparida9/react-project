@@ -61,7 +61,7 @@ export function EditVideo(){
             response.data.unshift({category_id:-1,category_name: 'Select Category'})
             setCategories(response.data);
         })
-    }
+    }0
 
     function LoadVideo(){
         axios.get(`http://localhost:3000/videos/${params.id}`)

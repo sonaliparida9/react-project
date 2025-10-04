@@ -34,15 +34,15 @@
   ],
   "videos": [
     {
-      "id": "1",
       "title": "Java Stream API",
       "description": "Java Tutorials",
       "url": "https://www.youtube.com/embed/JD0fIqzXUL4",
       "likes": 200,
-      "dislikes": 0,
       "views": 500,
+      "dislikes": 0,
+      "category_id": 1,
       "comments": "Thank you",
-      "category_id": 1
+      "id": "1"
     },
     {
       "title": "React by mr. shudhakar sharma",

@@ -6,10 +6,10 @@ import axios from "axios";
 export function AdminDashboard() {
 
   const [videos, setVideos] = useState([{id:0, title:null, description:null, url:null, views:0, dislikes:0, comments:null, category_id:0}]);
-  const [cookies, setCookie, removeCookie] = useCookies(["admin_id"]);
+  const [cookies, removeCookie] = useCookies(["admin_id"]);
   const navigate = useNavigate();
 
-
+// Memoized signout
     const handleLogout = () => {
       removeCookie("admin_id", { path: "/" }); // remove cookie
       console.log("🚪 Logged out, admin_id removed.");
@@ -17,6 +17,7 @@ export function AdminDashboard() {
   };
 
 
+  // Memoized load
   function LoadVideos(){
     axios.get(`http://localhost:3000/videos`)
     .then(response=>{
